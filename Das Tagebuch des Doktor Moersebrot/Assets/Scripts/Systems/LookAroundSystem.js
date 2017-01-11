@@ -21,6 +21,8 @@ var rotationY = 0.0;
  
 var lookSpeed = 2.0;
 
+
+
 function Awake () {
     
     rotationX = PlayerCamera.localRotation.y;
@@ -111,16 +113,18 @@ function Adjust360andClamp ()
     rotationY = Mathf.Clamp (rotationY, minimumY, maximumY);
 }
 
+
+
 function ClikOnSomething(){
     if ( Input.GetMouseButtonDown (0)){ 
         var hit : RaycastHit; 
         var ray : Ray;
         ray = Camera.main.ScreenPointToRay(Input.mousePosition); 
-        if ( Physics.Raycast (ray ,hit,100.0f)) {
+        if ( Physics.Raycast (ray ,hit,10.0)) {
         var SystemManager = SystemManagerObject.GetComponent(SystemManagerScript);
             if(hit.transform.gameObject.tag== "Waypoint"){
                 //Reset cam rotation
-                PlayerCamera.localRotation = new Quaternion(0.0,0.0,0.0,0.0);
+                //PlayerCamera.localRotation = new Quaternion(0.0,0.0,0.0,0.0);
 
                 Debug.Log("New Wypoint");                
                 SystemManager.MoveToPoint(hit.transform);                
