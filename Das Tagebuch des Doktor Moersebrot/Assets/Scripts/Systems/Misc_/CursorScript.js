@@ -39,7 +39,5 @@ function CheckCursor(){
         }else {
             Cursor.SetCursor(cursorTexture1, hotSpot, cursorMode);
         }
-    }else {
-        Cursor.SetCursor(cursorTexture1, hotSpot, cursorMode);
     }
 }
