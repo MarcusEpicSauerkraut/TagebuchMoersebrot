@@ -72,6 +72,8 @@ ModelImporter:
     100128: turmspitze
     100130: turmstuetze
     100132: wall5
+    100134: regal
+    100136: tower
     400000: Ceiling
     400002: Ceiling 1
     400004: Cube3
@@ -139,6 +141,8 @@ ModelImporter:
     400128: turmspitze
     400130: turmstuetze
     400132: wall5
+    400134: regal
+    400136: tower
     2300000: Ceiling
     2300002: Ceiling 1
     2300004: Cube3
@@ -200,6 +204,7 @@ ModelImporter:
     2300116: turmspitze
     2300118: turmstuetze
     2300120: wall5
+    2300122: regal
     3300000: Ceiling
     3300002: Ceiling 1
     3300004: Cube3
@@ -261,6 +266,7 @@ ModelImporter:
     3300116: turmspitze
     3300118: turmstuetze
     3300120: wall5
+    3300122: regal
     4300000: insel
     4300002: tuer
     4300004: tuerdach
@@ -322,6 +328,7 @@ ModelImporter:
     4300116: turm_alkoven2
     4300118: turmstuetze
     4300120: turm_alkoven3
+    4300122: regal
     9500000: //RootNode
   materials:
     importMaterials: 1
