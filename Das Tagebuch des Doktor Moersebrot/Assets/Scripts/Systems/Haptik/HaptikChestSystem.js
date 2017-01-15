@@ -20,4 +20,5 @@ function GetMousePower(powerX : float, powerY : float){
 
 function ChestOpen(){
     Schanier.rotation.x += YRotationPower;
+    //Hier Zeug machen
 }
