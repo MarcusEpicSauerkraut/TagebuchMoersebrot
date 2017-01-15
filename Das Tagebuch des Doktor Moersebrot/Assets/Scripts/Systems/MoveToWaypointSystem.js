@@ -9,8 +9,12 @@ var rotation : Transform;
 var speed: float = 3;
 var dampingLook = 6.0;                // How slowly to turn
 
-//Headbobbing
+//MainCam Kram
 var PlayerCam : Transform;
+var AdjustCam = 1;
+
+//Headbobbing
+var PlayerHead : Transform;
 var currentHeadBob = 0;
 var headbobwait = 0.0;
 var HeadBobPlaceA : Transform;
@@ -53,6 +57,7 @@ function WalkToNextSpot(){
         //Player.rotation = Quaternion.Slerp(Player.rotation, rotation.rotation, Time.deltaTime * dampingLook);
 
         Player.LookAt(target);
+        
 
         //Turn Player
         //var rotation2 = Quaternion.LookRotation(target.transform.position - Player.transform.position);
@@ -84,13 +89,13 @@ function HeadBobbing(){
         headbobwait=0.0;
     }
     if(currentHeadBob==0){
-        PlayerCam.transform.position = Vector3.Lerp(PlayerCam.transform.position, HeadBobPlaceB.position, Time.deltaTime * 2.0);
+        PlayerHead.transform.position = Vector3.Lerp(PlayerHead.transform.position, HeadBobPlaceB.position, Time.deltaTime * 2.0);
     }else  if(currentHeadBob==1){
-        PlayerCam.transform.position = Vector3.Lerp(PlayerCam.transform.position, HeadBobPlaceA.position, Time.deltaTime * 2.0);
+        PlayerHead.transform.position = Vector3.Lerp(PlayerHead.transform.position, HeadBobPlaceA.position, Time.deltaTime * 2.0);
     }else  if(currentHeadBob==2){
-        PlayerCam.transform.position = Vector3.Lerp(PlayerCam.transform.position, HeadBobPlaceB.position, Time.deltaTime * 2.0);
+        PlayerHead.transform.position = Vector3.Lerp(PlayerHead.transform.position, HeadBobPlaceB.position, Time.deltaTime * 2.0);
     }else  if(currentHeadBob==3){
-        PlayerCam.transform.position = Vector3.Lerp(PlayerCam.transform.position, HeadBobPlaceC.position, Time.deltaTime * 2.0);
+        PlayerHead.transform.position = Vector3.Lerp(PlayerHead.transform.position, HeadBobPlaceC.position, Time.deltaTime * 2.0);
     }
     
 }

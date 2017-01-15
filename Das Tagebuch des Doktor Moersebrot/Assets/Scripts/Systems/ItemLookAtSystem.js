@@ -61,7 +61,7 @@ function RotateItem(){
 
     //myItem.Rotate(rotationY*speed,rotationX*speed,0.0);
 
-    if ( Input.GetMouseButtonDown (1)){ 
+    if (!Input.GetMouseButton (0)){ 
         Mode=3;
     }
 }

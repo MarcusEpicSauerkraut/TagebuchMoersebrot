@@ -1,7 +1,9 @@
 ﻿#pragma strict
 
 var SystemManagerObject : GameObject;
+var MoveToWaypointSystem : GameObject;
 
+var Player : Transform;
 var PlayerCamera : Transform;
 
 enum Axes {MouseXandY, MouseX, MouseY}
@@ -24,14 +26,15 @@ var lookSpeed = 2.0;
 
 
 function Awake () {
-    
-    rotationX = PlayerCamera.localRotation.y;
-    rotationY = PlayerCamera.localRotation.x;
+    rotationX = 0;
+    rotationY = 0;
 }
 
 function Update () {
     LookAround();
-    ClikOnSomething();
+
+    if(MoveToWaypointSystem.active == false)
+        ClikOnSomething();
 }
 
 
@@ -47,10 +50,11 @@ function LookAround(){
         Adjust360andClamp();
  
         // If you don't want to allow a key to affect X, keep this line but take it out of the if
-        PlayerCamera.localRotation = Quaternion.AngleAxis (rotationX, Vector3.up);
+        PlayerCamera.rotation = Quaternion.AngleAxis (rotationX, Vector3.up);
  
         // If you don't want to allow a key to affect Y, keep this line but take it out of the if
-        PlayerCamera.localRotation *= Quaternion.AngleAxis (rotationY, Vector3.left);
+        PlayerCamera.rotation *= Quaternion.AngleAxis (rotationY, Vector3.left);
+
     }
     else if (Axis == Axes.MouseX)
     {
@@ -131,6 +135,8 @@ function ClikOnSomething(){
 
             }else  if(hit.transform.gameObject.tag== "Item"){
                 SystemManager.GotItem(hit.transform);                
+            }else  if(hit.transform.gameObject.tag== "HaptikChest"){
+                SystemManager.HaptikInteractionON(hit.transform.gameObject, 1);                
             }
             Debug.Log("You selected the " + hit.transform.name); // ensure you picked right object
         }
