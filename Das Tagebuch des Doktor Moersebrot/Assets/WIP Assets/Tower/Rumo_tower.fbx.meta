@@ -1,0 +1,477 @@
+fileFormatVersion: 2
+guid: 113981b3a42eac847b2ee11c86a2c4cc
+timeCreated: 1484769384
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Ceiling
+    100002: Ceiling 1
+    100004: Ceiling1
+    100006: Cube3
+    100008: Cube3 1
+    100010: dach2
+    100012: dach3
+    100014: group1
+    100016: group10
+    100018: group4
+    100020: group5
+    100022: group6
+    100024: group7
+    100026: group8
+    100028: group9
+    100030: insel
+    100032: leiter
+    100034: pCube13
+    100036: pCube28
+    100038: pCube29
+    100040: pCube37
+    100042: pCube38
+    100044: pCube39
+    100046: pCube39 1
+    100048: pCube39 2
+    100050: pCube39 3
+    100052: pCube39 4
+    100054: pCube40
+    100056: pCube40 1
+    100058: pCube40 2
+    100060: pCube40 3
+    100062: pCube40 4
+    100064: pCube41
+    100066: pCube41 1
+    100068: pCube41 2
+    100070: pCube41 3
+    100072: pCube41 4
+    100074: pCube42
+    100076: pCube42 1
+    100078: pCube42 2
+    100080: pCube42 3
+    100082: pCube42 4
+    100084: pCube44
+    100086: pCube45
+    100088: pCube46
+    100090: pCube47
+    100092: pCube48
+    100094: pCube60
+    100096: pCube65
+    100098: pCylinder2
+    100100: pCylinder25
+    100102: pCylinder46
+    100104: pCylinder47
+    100106: pCylinder48
+    100108: pCylinder56
+    100110: polySurface1
+    100112: polySurface2
+    100114: regal
+    100116: //RootNode
+    100118: rumotower_window
+    100120: rumotower_window1
+    100122: rumotower_window10
+    100124: rumotower_window2
+    100126: rumotower_window3
+    100128: rumotower_window4
+    100130: rumotower_window5
+    100132: rumotower_window6
+    100134: rumotower_window7
+    100136: rumotower_window8
+    100138: rumotower_window9
+    100140: schrank
+    100142: schrank 1
+    100144: schrankbretter
+    100146: schranktuer1
+    100148: schranktuer2
+    100150: te_etage
+    100152: tisch1
+    100154: tisch2
+    100156: tower
+    100158: tuer
+    100160: tuerdach
+    100162: tuerdachbalken
+    100164: turm_alkoven2
+    100166: turm_alkoven3
+    100168: turm_base
+    100170: turmspitze
+    100172: turmstuetze
+    100174: wall5
+    400000: Ceiling
+    400002: Ceiling 1
+    400004: Ceiling1
+    400006: Cube3
+    400008: Cube3 1
+    400010: dach2
+    400012: dach3
+    400014: group1
+    400016: group10
+    400018: group4
+    400020: group5
+    400022: group6
+    400024: group7
+    400026: group8
+    400028: group9
+    400030: insel
+    400032: leiter
+    400034: pCube13
+    400036: pCube28
+    400038: pCube29
+    400040: pCube37
+    400042: pCube38
+    400044: pCube39
+    400046: pCube39 1
+    400048: pCube39 2
+    400050: pCube39 3
+    400052: pCube39 4
+    400054: pCube40
+    400056: pCube40 1
+    400058: pCube40 2
+    400060: pCube40 3
+    400062: pCube40 4
+    400064: pCube41
+    400066: pCube41 1
+    400068: pCube41 2
+    400070: pCube41 3
+    400072: pCube41 4
+    400074: pCube42
+    400076: pCube42 1
+    400078: pCube42 2
+    400080: pCube42 3
+    400082: pCube42 4
+    400084: pCube44
+    400086: pCube45
+    400088: pCube46
+    400090: pCube47
+    400092: pCube48
+    400094: pCube60
+    400096: pCube65
+    400098: pCylinder2
+    400100: pCylinder25
+    400102: pCylinder46
+    400104: pCylinder47
+    400106: pCylinder48
+    400108: pCylinder56
+    400110: polySurface1
+    400112: polySurface2
+    400114: regal
+    400116: //RootNode
+    400118: rumotower_window
+    400120: rumotower_window1
+    400122: rumotower_window10
+    400124: rumotower_window2
+    400126: rumotower_window3
+    400128: rumotower_window4
+    400130: rumotower_window5
+    400132: rumotower_window6
+    400134: rumotower_window7
+    400136: rumotower_window8
+    400138: rumotower_window9
+    400140: schrank
+    400142: schrank 1
+    400144: schrankbretter
+    400146: schranktuer1
+    400148: schranktuer2
+    400150: te_etage
+    400152: tisch1
+    400154: tisch2
+    400156: tower
+    400158: tuer
+    400160: tuerdach
+    400162: tuerdachbalken
+    400164: turm_alkoven2
+    400166: turm_alkoven3
+    400168: turm_base
+    400170: turmspitze
+    400172: turmstuetze
+    400174: wall5
+    2300000: Ceiling
+    2300002: Ceiling 1
+    2300004: Ceiling1
+    2300006: Cube3
+    2300008: Cube3 1
+    2300010: dach2
+    2300012: dach3
+    2300014: insel
+    2300016: leiter
+    2300018: pCube13
+    2300020: pCube28
+    2300022: pCube29
+    2300024: pCube37
+    2300026: pCube38
+    2300028: pCube39
+    2300030: pCube39 1
+    2300032: pCube39 2
+    2300034: pCube39 3
+    2300036: pCube39 4
+    2300038: pCube40
+    2300040: pCube40 1
+    2300042: pCube40 2
+    2300044: pCube40 3
+    2300046: pCube40 4
+    2300048: pCube41
+    2300050: pCube41 1
+    2300052: pCube41 2
+    2300054: pCube41 3
+    2300056: pCube41 4
+    2300058: pCube42
+    2300060: pCube42 1
+    2300062: pCube42 2
+    2300064: pCube42 3
+    2300066: pCube42 4
+    2300068: pCube44
+    2300070: pCube45
+    2300072: pCube46
+    2300074: pCube47
+    2300076: pCube48
+    2300078: pCube60
+    2300080: pCube65
+    2300082: pCylinder2
+    2300084: pCylinder25
+    2300086: pCylinder46
+    2300088: pCylinder47
+    2300090: pCylinder48
+    2300092: pCylinder56
+    2300094: polySurface1
+    2300096: polySurface2
+    2300098: regal
+    2300100: rumotower_window
+    2300102: rumotower_window1
+    2300104: rumotower_window10
+    2300106: rumotower_window2
+    2300108: rumotower_window3
+    2300110: rumotower_window4
+    2300112: rumotower_window5
+    2300114: rumotower_window6
+    2300116: rumotower_window7
+    2300118: rumotower_window8
+    2300120: rumotower_window9
+    2300122: schrank 1
+    2300124: schrankbretter
+    2300126: schranktuer1
+    2300128: schranktuer2
+    2300130: te_etage
+    2300132: tisch1
+    2300134: tisch2
+    2300136: tuer
+    2300138: tuerdach
+    2300140: tuerdachbalken
+    2300142: turm_alkoven2
+    2300144: turm_alkoven3
+    2300146: turmspitze
+    2300148: turmstuetze
+    3300000: Ceiling
+    3300002: Ceiling 1
+    3300004: Ceiling1
+    3300006: Cube3
+    3300008: Cube3 1
+    3300010: dach2
+    3300012: dach3
+    3300014: insel
+    3300016: leiter
+    3300018: pCube13
+    3300020: pCube28
+    3300022: pCube29
+    3300024: pCube37
+    3300026: pCube38
+    3300028: pCube39
+    3300030: pCube39 1
+    3300032: pCube39 2
+    3300034: pCube39 3
+    3300036: pCube39 4
+    3300038: pCube40
+    3300040: pCube40 1
+    3300042: pCube40 2
+    3300044: pCube40 3
+    3300046: pCube40 4
+    3300048: pCube41
+    3300050: pCube41 1
+    3300052: pCube41 2
+    3300054: pCube41 3
+    3300056: pCube41 4
+    3300058: pCube42
+    3300060: pCube42 1
+    3300062: pCube42 2
+    3300064: pCube42 3
+    3300066: pCube42 4
+    3300068: pCube44
+    3300070: pCube45
+    3300072: pCube46
+    3300074: pCube47
+    3300076: pCube48
+    3300078: pCube60
+    3300080: pCube65
+    3300082: pCylinder2
+    3300084: pCylinder25
+    3300086: pCylinder46
+    3300088: pCylinder47
+    3300090: pCylinder48
+    3300092: pCylinder56
+    3300094: polySurface1
+    3300096: polySurface2
+    3300098: regal
+    3300100: rumotower_window
+    3300102: rumotower_window1
+    3300104: rumotower_window10
+    3300106: rumotower_window2
+    3300108: rumotower_window3
+    3300110: rumotower_window4
+    3300112: rumotower_window5
+    3300114: rumotower_window6
+    3300116: rumotower_window7
+    3300118: rumotower_window8
+    3300120: rumotower_window9
+    3300122: schrank 1
+    3300124: schrankbretter
+    3300126: schranktuer1
+    3300128: schranktuer2
+    3300130: te_etage
+    3300132: tisch1
+    3300134: tisch2
+    3300136: tuer
+    3300138: tuerdach
+    3300140: tuerdachbalken
+    3300142: turm_alkoven2
+    3300144: turm_alkoven3
+    3300146: turmspitze
+    3300148: turmstuetze
+    4300000: insel
+    4300002: tuer
+    4300004: tuerdach
+    4300006: pCube29
+    4300008: pCube13
+    4300010: pCube28
+    4300012: pCylinder25
+    4300014: pCube37
+    4300016: pCylinder46
+    4300018: pCylinder47
+    4300020: pCylinder48
+    4300022: regal
+    4300024: Cube3
+    4300026: Ceiling
+    4300028: Ceiling1
+    4300030: Cube3
+    4300032: Ceiling
+    4300034: schrankbretter
+    4300036: schrank
+    4300038: schranktuer1
+    4300040: schranktuer2
+    4300042: tisch1
+    4300044: tisch2
+    4300046: leiter
+    4300048: tuerdachbalken
+    4300050: te_etage
+    4300052: dach2
+    4300054: dach3
+    4300056: turmspitze
+    4300058: turm_alkoven2
+    4300060: turmstuetze
+    4300062: turm_alkoven3
+    4300064: pCylinder2
+    4300066: polySurface2
+    4300068: pCube38
+    4300070: pCube44
+    4300072: pCube45
+    4300074: pCube46
+    4300076: pCube47
+    4300078: pCube48
+    4300080: pCube39
+    4300082: pCube40
+    4300084: pCube41
+    4300086: pCube42
+    4300088: pCube39
+    4300090: pCube40
+    4300092: pCube41
+    4300094: pCube42
+    4300096: pCube39
+    4300098: pCube40
+    4300100: pCube41
+    4300102: pCube42
+    4300104: pCube39
+    4300106: pCube40
+    4300108: pCube41
+    4300110: pCube42
+    4300112: pCube39
+    4300114: pCube40
+    4300116: pCube41
+    4300118: pCube42
+    4300120: rumotower_window
+    4300122: rumotower_window1
+    4300124: rumotower_window2
+    4300126: rumotower_window3
+    4300128: rumotower_window4
+    4300130: rumotower_window5
+    4300132: rumotower_window6
+    4300134: rumotower_window7
+    4300136: rumotower_window8
+    4300138: rumotower_window9
+    4300140: rumotower_window10
+    4300142: polySurface1
+    4300144: pCube60
+    4300146: pCube65
+    4300148: pCylinder56
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
