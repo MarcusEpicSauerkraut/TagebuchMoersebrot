@@ -1,0 +1,128 @@
+fileFormatVersion: 2
+guid: 9ab82e6ccfabee3468c680a0d8470e5c
+timeCreated: 1485570729
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: "tromapune_fu\xDF"
+    100002: //RootNode
+    100004: trompaune_body
+    100006: trompaune_glas
+    100008: trompaune_knopf
+    100010: trompaune_rohr
+    100012: trompaune_trompete_M
+    100014: trompaune_trompete_S
+    100016: trompaune_trompete_XL
+    100018: trompaune_zylynder_L
+    100020: trompaune_zylynder_S
+    400000: "tromapune_fu\xDF"
+    400002: //RootNode
+    400004: trompaune_body
+    400006: trompaune_glas
+    400008: trompaune_knopf
+    400010: trompaune_rohr
+    400012: trompaune_trompete_M
+    400014: trompaune_trompete_S
+    400016: trompaune_trompete_XL
+    400018: trompaune_zylynder_L
+    400020: trompaune_zylynder_S
+    2300000: "tromapune_fu\xDF"
+    2300002: trompaune_body
+    2300004: trompaune_glas
+    2300006: trompaune_knopf
+    2300008: trompaune_rohr
+    2300010: trompaune_trompete_M
+    2300012: trompaune_trompete_S
+    2300014: trompaune_trompete_XL
+    2300016: trompaune_zylynder_L
+    2300018: trompaune_zylynder_S
+    3300000: "tromapune_fu\xDF"
+    3300002: trompaune_body
+    3300004: trompaune_glas
+    3300006: trompaune_knopf
+    3300008: trompaune_rohr
+    3300010: trompaune_trompete_M
+    3300012: trompaune_trompete_S
+    3300014: trompaune_trompete_XL
+    3300016: trompaune_zylynder_L
+    3300018: trompaune_zylynder_S
+    4300000: trompaune_body
+    4300002: trompaune_glas
+    4300004: trompaune_zylynder_L
+    4300006: trompaune_trompete_M
+    4300008: trompaune_trompete_S
+    4300010: trompaune_rohr
+    4300012: trompaune_zylynder_S
+    4300014: trompaune_trompete_XL
+    4300016: trompaune_knopf
+    4300018: "tromapune_fu\xDF"
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
