@@ -25,8 +25,7 @@ var HeadBobPlaceC : Transform;
 var Footstep1 : AudioSource;
 
 function LookAtNewTarget() {
-    rotation.position = Player.transform.position;
-    rotation.LookAt(target);
+
 }
 
 function Update () {
@@ -48,24 +47,10 @@ function WalkToNextSpot(){
         SystemManager.ArrivedAtPoint();
             
     }else{        
-        
-        //Turn Player
-        //rotation.position = Player.transform.position;
-        //rotation.LookAt(target);
-        //rotation.rotation.x=0.0;
-        //rotation.rotation.z=0.0;
-        //Player.rotation = Quaternion.Slerp(Player.rotation, rotation.rotation, Time.deltaTime * dampingLook);
 
         Player.LookAt(target);
-        
 
-        //Turn Player
-        //var rotation2 = Quaternion.LookRotation(target.transform.position - Player.transform.position);
-        //transform.rotation = Quaternion.Slerp(transform.rotation, rotation2, Time.deltaTime * dampingLook);
-        
         //Move Player
-        
-        //Player.transform.position = Vector3.Lerp(Player.transform.position, target.position, Time.deltaTime * speed);
         Player.transform.position += Player.transform.forward *Time.deltaTime *speed;
 
         //HeadBob

@@ -10,8 +10,8 @@ function Start () {
 }
 
 function MoveToPoint(newWaypoint : Transform){
-    MoveToWaypointSystemObject.SetActive(true);
-    //LookAroundSystemObject.SetActive(false);
+    MoveToWaypointSystemObject.SetActive(true);    
+    LookAroundSystemObject.SetActive(false);
 
     var SystemManager = MoveToWaypointSystemObject.GetComponent(MoveToWaypointSystem);
     SystemManager.target=newWaypoint;
