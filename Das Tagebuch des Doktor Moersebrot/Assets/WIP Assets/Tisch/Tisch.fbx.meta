@@ -1,0 +1,176 @@
+fileFormatVersion: 2
+guid: 444547014050a1043a672e7208af025d
+timeCreated: 1487609243
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: griff1
+    100002: griff2
+    100004: griff3
+    100006: halter1
+    100008: halter2
+    100010: halter3
+    100012: regalbrett
+    100014: "rohrverbundst\xFCck13"
+    100016: Schublade1
+    100018: schublade1
+    100020: Schublade2
+    100022: schublade2
+    100024: Schublade3
+    100026: schublade3
+    100028: //RootNode
+    100030: tisch_PackA
+    100032: Tisch_PackB
+    100034: tisch_regal
+    100036: tisch_rohre
+    100038: tisch_schrank_tuer
+    100040: Tischbeine
+    100042: wasserhahn2
+    100044: wasserknauf
+    400000: griff1
+    400002: griff2
+    400004: griff3
+    400006: halter1
+    400008: halter2
+    400010: halter3
+    400012: regalbrett
+    400014: "rohrverbundst\xFCck13"
+    400016: Schublade1
+    400018: schublade1
+    400020: Schublade2
+    400022: schublade2
+    400024: Schublade3
+    400026: schublade3
+    400028: //RootNode
+    400030: tisch_PackA
+    400032: Tisch_PackB
+    400034: tisch_regal
+    400036: tisch_rohre
+    400038: tisch_schrank_tuer
+    400040: Tischbeine
+    400042: wasserhahn2
+    400044: wasserknauf
+    2300000: griff1
+    2300002: griff2
+    2300004: griff3
+    2300006: halter1
+    2300008: halter2
+    2300010: halter3
+    2300012: regalbrett
+    2300014: "rohrverbundst\xFCck13"
+    2300016: schublade1
+    2300018: schublade2
+    2300020: schublade3
+    2300022: tisch_PackA
+    2300024: tisch_regal
+    2300026: tisch_rohre
+    2300028: tisch_schrank_tuer
+    2300030: Tischbeine
+    2300032: wasserhahn2
+    2300034: wasserknauf
+    3300000: griff1
+    3300002: griff2
+    3300004: griff3
+    3300006: halter1
+    3300008: halter2
+    3300010: halter3
+    3300012: regalbrett
+    3300014: "rohrverbundst\xFCck13"
+    3300016: schublade1
+    3300018: schublade2
+    3300020: schublade3
+    3300022: tisch_PackA
+    3300024: tisch_regal
+    3300026: tisch_rohre
+    3300028: tisch_schrank_tuer
+    3300030: Tischbeine
+    3300032: wasserhahn2
+    3300034: wasserknauf
+    4300000: schublade1
+    4300002: halter1
+    4300004: griff1
+    4300006: schublade2
+    4300008: halter2
+    4300010: griff2
+    4300012: schublade3
+    4300014: halter3
+    4300016: griff3
+    4300018: Tischbeine
+    4300020: tisch_schrank_tuer
+    4300022: regalbrett
+    4300024: tisch_rohre
+    4300026: "rohrverbundst\xFCck13"
+    4300028: wasserknauf
+    4300030: tisch_regal
+    4300032: wasserhahn2
+    4300034: tisch_PackA
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
